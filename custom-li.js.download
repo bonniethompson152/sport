@@ -1,0 +1,10 @@
+var $j = jQuery.noConflict();
+
+$j(function(){
+$j(".orange-swatch, .white-swatch").wrap("<section class='section'></section>");
+});
+
+$j(function(){
+$j(".wpcf7-response-output").wrap("<div class='container'></div>");
+});
+ 

@@ -1,0 +1,37 @@
+/* CSS Document */
+
+
+/*list view*/
+#macteam-teambox{background-color:#00294e; color:#fff;text-align:center; min-height:350px; margin-bottom:30px;}
+.team-image img{ position:relative; -webkit-filter: grayscale(.9) opacity(0.8) brightness(0.6);
+filter: grayscale(.9) opacity(0.8) brightness(0.6);}
+
+
+.team-image img:hover{-webkit-filter: none; filter:none;}
+
+
+.team-title{font-size:23px; margin-top:20px;}
+.team-jobtitle{font-size:15px;margin-top:5px;}
+.team-email{font-size:15px; margin-top:25px;}
+.team-phone{font-size:15px;margin-top:5px;}
+.team-phone a:link{color:#fff;}
+.team-more,.team-more a:link,.team-more a:active,.team-more a:visited {font-size:15px; margin-top:5px; margin-bottom:10px; color:#8fba26; text-decoration:none; text-transform:uppercase;}
+.team-more a:hover{color:#fff;}
+/*detail view*/
+.row .macteam{margin-top:24px;}
+
+.macteam h2{color:#00294e;}
+.macteam-gray{color:#585756;}
+.back-arrow{margin-top:16px;line-height:26px;background-image:url(/wp-content/uploads/2016/03/back-arrow-button.gif); padding-left:30px; background-position:left center; background-repeat:no-repeat;font-weight:bold;}
+
+@media only screen and (max-width: 768px) {
+	.team-more{padding-bottom:10px;}
+	
+	.xteam-image img{  
+	-webkit-filter: grayscale(0.1) opacity(1) brightness(0.6);
+filter: grayscale(0.1) opacity(1) brightness(0.6);}
+
+.xteam-image img:hover{	-webkit-filter: grayscale(0.1) opacity(1) brightness(0.6);
+filter: grayscale(0.1) opacity(1) brightness(0.6);}}
+}
+
